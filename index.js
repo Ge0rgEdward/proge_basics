@@ -25,10 +25,10 @@ person[name] ='Mary'
 console.log(person.name);
 
 let valitudVärvid = ['red','blue']
-selectedColors[2]='green';
+valitudVärvid[2]='green';
 
 
-console.log(selectedColors.length);
+console.log(valitudVärvid.length);
 
 
 //Codeguage ylesanne 
@@ -42,8 +42,3 @@ b= Number(b);
 let sum= a+b;
 
 document.write('Summa on:'+ sum);
-
-
-
-
-
