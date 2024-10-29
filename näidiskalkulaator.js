@@ -1,9 +1,8 @@
-let a = prompt('a=...');
-let b = prompt('b=...');
+var a = prompt('a=...');
+var b = prompt('b=...');
+a = Number(a);
+b = Number(b);
 
-a= Number(a);
-b= Number(b);
+var sum  = a + b;
 
-let sum= a+b;
-
-document.write('Summa on:'+ sum);
+document.write('Summa=' + sum)
