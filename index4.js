@@ -1,6 +1,6 @@
 let vanus = prompt('Sisesta oma vanus');
 let puuvili = prompt('Sisesta oma lemmik puuvili');
-puuvili = puuvili.toLowerCase();
+puuvili = puuvili.toLowerCase(puuvili);
 
 if (isNaN(vanus)){
     console.log('Sisesta oma vanus numbrites')

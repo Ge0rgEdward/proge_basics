@@ -45,17 +45,21 @@ const fullName= 'Georg Piil'
 
 
 // NO METHOD CHAINING 
-let username = window.prompt('Enter your username');
+//let username = window.prompt('Enter your username');
 
-username = username.trim();
-let letter = username.charAt(0);
-letter = letter.toUpperCase();
+//username = username.trim();
+//let letter = username.charAt(0);
+//letter = letter.toUpperCase();
 
-let extraChars = username.slice(1);
-extraChars = extraChars.toLowerCase();
-username = letter + extraChars;
+//let extraChars = username.slice(1);
+//extraChars = extraChars.toLowerCase();
+//username = letter + extraChars;
 
-console.log(username)
+//console.log(username)
 
 // WITH METHOD CHAINING
-username = username.trim()+username.charAt(0)+letter.toUpperCase()+ username.slice(1)+extraChars.toLowerCase();
+//username = username.trim()+username.charAt(0)+letter.toUpperCase()+ username.slice(1)+extraChars.toLowerCase();
+
+
+
+//LOGICAL OPERATORS AND = &&
